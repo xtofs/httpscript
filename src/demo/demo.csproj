@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\xtofs.httpscript\httpscript.csproj" />
     <ProjectReference Include="..\httpscript\httpscript.csproj" />
   </ItemGroup>
 </Project>
