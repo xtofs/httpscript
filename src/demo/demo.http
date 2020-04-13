@@ -1,0 +1,10 @@
+#! host https://localhost:5001
+## Reading documents
+# Get all documents
+GET /api/documents
+Accept: application/json
+
+@id0=$.value[0].id
+#
+# Get single documents info
+GET /api/documents/{{id0}}
