@@ -25,3 +25,8 @@ jobs:
       - name: Test
         working-directory: src
         run: dotnet test --no-restore --verbosity normal
+      - name: Upload
+        uses: actions/upload-artifact@v1
+        with:
+          name: httpscript.dll
+          path: httpscript/bin/Release/netstandard2.0/httpscript.dll
