@@ -29,4 +29,4 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: httpscript.dll
-          path: httpscript/bin/Release/netstandard2.0/httpscript.dll
+          path: src/httpscript/bin/Release/netstandard2.0/httpscript.dll
